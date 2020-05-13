@@ -45,7 +45,7 @@ spec:
     - agent: tekton
       branches:
         entries:
-        - master
+        - ^master$
       cluster: ""
       context: ""
       labels: {}
